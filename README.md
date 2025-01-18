@@ -10,7 +10,7 @@ Hi! I'm **Tarun Pratap Singh**, a recent graduate with a Bachelor's degree in **
 - 📍 **Location**: Noida, Uttar Pradesh, India
 - 📧 **Email**: [tarunpratapsingh097@gmail.com](mailto:tarunpratapsingh097@gmail.com)
 - 🌐 **LinkedIn**: [linkedin.com/in/tarun-pratap-singh](https://www.linkedin.com/in/tarun-pratap-singh-941b91220/)
-- 🚀 **GitHub**: [github.com/tarunpratapsingh](https://github.com/tarunpratapsingh)
+- 🚀 **GitHub**: [github.com/tarunpratapsingh](https://github.com/Tarun0009))
 
 ## Skills
 
