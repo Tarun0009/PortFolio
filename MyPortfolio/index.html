@@ -26,32 +26,32 @@
 
   <!-- Main CSS File -->
   <link href="main.css" rel="stylesheet">
-
+  
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
-
     <div class="profile-img">
-      <img src="assets/img/Snapchat-1963034360.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets\img\Snapchat-1963034360-POP_OUT.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
       <h1 class="sitename">Tarun Pratap Singh</h1>
     </a>
 
     <div class="social-links text-center">
       <a href="https://linkedin.com/in/tarun-pratap-singh-941b91220/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://x.com/tarunpratap097" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://github.com/Tarun0009" class="linkedin"><i class="bi bi-github"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#projects"><i class="bi bi-folder navicon"></i> Projects</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
@@ -62,7 +62,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-      <div class="profile-container">
+      <div id="hero" class="profile-container">
         <img src="assets/img/Snapchat-1963034360.jpg"  class="profile-pic">
       </div>
        <!-- Name and Title -->
@@ -75,7 +75,7 @@
     <section id="about" class="about section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container1 section-title" data-aos="fade-up">
         <h2>About</h2>
         <p>
           Hey there! I’m Tarun Pratap Singh—a tech enthusiast, a problem solver, and a developer with a knack for turning ideas into functional apps. 
@@ -90,7 +90,7 @@
         </p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container1" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-3 justify-content-center">
           <div class="col-lg-3">
@@ -112,7 +112,7 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech(CSE)</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tarunpratapsingh097.gmailcom</span></li>
                  
@@ -132,13 +132,13 @@
     <!-- Skills Section -->
     <section id="skills" class="skills section light-background">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container1 section-title" data-aos="fade-up">
         <h2>Skills</h2>
         <p>Here’s a glimpse of my technical expertise and proficiency levels.</p>
       </div>
       <!-- End Section Title -->
     
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container1" data-aos="fade-up" data-aos-delay="100">
         <div class="skills-grid">
           <!-- Skill Item -->
           <div class="skill-item">
@@ -193,56 +193,123 @@
       </div>
     </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section">
-      <div class="container">
-        <h2 class="section-title">Resume</h2>
-        <div class="resume-content">
-          <h3>Tarun Pratap Singh </h3>
-          <p>Noida, Uttar Pradesh (201301) | <a href="mailto:tarunpratapsingh097@gmail.com">tarunpratapsingh097@gmail.com</a> | 9717862329</p>
-          <p>
-            <a href="https://linkedin.com/in/tarun-pratap-singh-941b91220/" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/Tarun0009" target="_blank">GitHub</a>
-          </p>
-    
-          <h4>Education</h4>
-          <ul>
-            <li><strong>Noida Institute of Engineering and Technology, Greater Noida</strong> - B.Tech (CSE) (CGPA: 7.62) (2020–2024)</li>
-            <li><strong>Modern School, Noida</strong> - Senior Secondary Education (Percentage: 84.6%) (2019–2020)</li>
-            <li><strong>Modern School, Noida</strong> - Higher Secondary Education (Percentage: 72.2%) (2017–2018)</li>
-          </ul>
-    
-          <h4>Skills</h4>
-          <p>Programming Languages: HTML, CSS, JavaScript, Java, SQL<br>Frameworks: Bootstrap, React</p>
-    
-          <h4>Projects</h4>
-          <ul>
-            <li><strong>Personal Portfolio Website:</strong>
-              <ul>
-                <li>Designed and developed a responsive personal portfolio website showcasing projects, skills, and contact information using HTML, CSS, and JavaScript.</li>
-                <li>Implemented a modern hero section with interactive animations and a clean layout for enhanced user engagement.</li>
-                <li>Deployed the portfolio using GitHub Pages/Netlify and demonstrated proficiency in version control with Git.</li>
-              </ul>
-            </li>
-            <li><strong>E-Commerce Website Using React:</strong>
-              <ul>
-                <li>Developed a responsive and scalable e-commerce web application leveraging React.js to provide seamless user interaction across multiple devices.</li>
-                <li>Designed and implemented reusable components such as headers, product displays, and shopping carts.</li>
-                <li>Built a clean and user-friendly UI with SCSS for styling and ensured cross-browser compatibility.</li>
-              </ul>
-            </li>
-          </ul>
-    
-          <h4>Certifications</h4>
-          <ul>
-            <li>Certificate in Web Development with HTML, CSS, JavaScript from IBM Skills Network</li>
-            <li>Certificate in Object-Oriented Programming in Java from the University of California San Diego</li>
-          </ul>
+    <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <!-- Section Title -->
+    <div class="container1 section-title" data-aos="fade-up">
+      <h2>Projects</h2>
+      <p>A selection of projects I've worked on that showcase my skills and experience.</p>
+    </div>
+    <!-- End Section Title -->
+  
+    <!-- Projects Content -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-5 col-md-12 project-item">
+          <div class="project-content">
+            <h3>Password Generator</h3>
+            <img src="assets\img\passGen.png" alt="Password Generator" class="img-fluid mb-3"> <!-- Project Image -->
+            <p>
+              A simple and responsive web application that generates secure passwords based on user-defined preferences. Features include customizable password length, inclusion/exclusion of characters (uppercase, lowercase, numbers, symbols), and a "Copy to Clipboard" functionality for seamless usage. Designed using HTML, CSS, and JavaScript.            </p>
+            <a href="https://tarun0009.github.io/Password-Generator/" target="_blank" class="project-link">View on GitHub</a>
+          </div>
         </div>
-    
-        <button id="downloadPdf" class="btn">Download Resume as PDF</button>
+        <!-- End Project 1 -->
+  
+        <!-- Project 2 -->
+        <div class="col-lg-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       col-md-12 project-item">
+          <div class="project-content">
+            <h3>Personal Portfolio Website</h3>
+            <img src="assets\img\portf.png" alt="Banking Application" class="img-fluid mb-3"> <!-- Project Image -->
+            <p>
+              A modern and responsive portfolio website showcasing projects, skills, and contact details. Features a clean layout, interactive animations, and seamless navigation. Built using HTML, CSS, and JavaScript, and deployed via GitHub Pages.            </p>
+            <a href="https://tarun0009.github.io/PortFolio/MyPortfolio/" target="_blank" class="project-link">View on Github</a>
+          </div>
+        </div>
+
+        <!-- End Project 2 -->
+
+        <!-- Start Project 3 -->
+        <div class="col-lg-5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       col-md-12 project-item">
+          <div class="project-content">
+            <h3>Background Color Changer</h3>
+            <img src="assets\img\bgcolor.png" alt="Banking Application" class="img-fluid mb-3"> <!-- Project Image -->
+            <p>A dynamic web application that allows users to change the background color of the page in real-time. Built with React, it features customizable color palettes, a hex-code input field, and a random color generator. The app leverages React hooks (useState, useEffect) for seamless state management and UI updates. Designed to be responsive, it enhances user interaction while demonstrating core React concepts like component reusability and event handling. Perfect for learning state-driven UI development</p>
+            <a href="https://tarun0009.github.io/bgcolorchangerr/" target="_blank" class="project-link">View on Github</a>
+          </div>
+        </div>
+        <!-- End Project 3 -->
+        </div>
       </div>
-    </section><!-- /Resume Section -->
+    </div>
+  </section>
+  
+
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container1"  id="resume-section">
+          <div class="header1">
+              <h1>Tarun Pratap Singh</h1>
+              <p>Noida, Uttar Pradesh (201301) | <a href="mailto:tarunpratapsingh097@gmail.com">tarunpratapsingh097@gmail.com</a> | 9717862329</p>
+              <p><a href="https://linkedin.com/in/tarun-pratap-singh-941b91220/" target="_blank">LinkedIn</a> | <a href="https://github.com/Tarun0009" target="_blank">GitHub</a></p>
+          </div>
+  
+          <div class="section1">
+              <h2>Education</h2>
+              <p><strong>Noida Institute of Engineering and Technology, Greater Noida</strong><br>Bachelors of Technology (Computer Science and Engineering) (CGPA: 7.62)<br>2020 – 2024</p>
+              <p><strong>Modern School, Noida</strong><br>Senior Secondary Education (Percentage: 84.6)<br>2019 – 2020</p>
+              <p><strong>Modern School, Noida</strong><br>Higher Secondary Education (Percentage: 72.2)<br>2017 – 2018</p>
+          </div>
+  
+          <div class="section1">
+              <h2>Skills</h2>
+              <p><strong>Programming Languages:</strong> HTML, CSS, JavaScript, Java, SQL</p>
+              <p><strong>Frameworks:</strong> Bootstrap</p>
+          </div>
+  
+          <div class="section1">
+              <h2>Projects</h2>
+              <p><strong>Personal Portfolio Website</strong> || <a href="#">Project Link</a></p>
+              <ul class="ul1">
+                  <li>Designed and developed a responsive personal portfolio website showcasing projects, skills, and contact information using HTML, CSS, and JavaScript.</li>
+                  <li>Implemented a modern hero section with interactive animations and a clean layout for enhanced user engagement.</li>
+                  <li>Designed and styled sections (About, Skills, Resume, Contact) with user-friendly navigation for an optimal user experience.</li>
+                  <li>Deployed the portfolio using GitHub Pages for seamless access and demonstrated proficiency in version control with Git.</li>
+              </ul>
+  
+              <p><strong>Password Generator</strong> || <a href="#">Project Link</a></p>
+              <ul class="ul1">
+                  <li>Designed and developed a responsive and user-friendly Password Generator web application using HTML, CSS, and JavaScript.</li>
+                  <li>Implemented features to customize password length and include/exclude uppercase letters, lowercase letters, numbers, and symbols.</li>
+                  <li>Integrated a "Copy to Clipboard" functionality for seamless password usage.</li>
+                  <li>Utilized event handling in JavaScript to dynamically generate secure passwords based on user preferences.</li>
+              </ul>
+          </div>
+  
+          <div class="section1">
+              <h2>Certifications</h2>
+              <ul class="ul1">
+                  <li>Certificate in the field of Web Development with HTML, CSS, JavaScript from IBM Skills Network</li>
+                  <li>Certificate from University of California San Diego of Object-Oriented Programming in Java</li>
+              </ul>
+          </div>
+  
+          <div class="section1">
+              <h2>Hobbies and Interests</h2>
+              <ul class="ul1">
+                  <li>Gaming: Strategizing and collaborating in team-based competitive gaming (e.g., BGMI).</li>
+                  <li>Exploring New Technologies: Staying updated with emerging trends in software and development.</li>
+                  <li>Sports: Playing cricket and volleyball to maintain a balanced lifestyle and build teamwork skills.</li>
+              </ul>
+          </div>
+      </div>
+    <button id="download-pdf" onclick="downloadResume()">Download as PDF</button>
+</body>
+    </section>
+    
+    <!-- /Resume Section -->
 
    
     <!-- Contact Section -->
@@ -320,18 +387,27 @@
   <!-- Main JS File -->
   <script src="main.js"></script>
   <!--Resume pdf download js file-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
   <script>
-    document.getElementById('downloadPdf').addEventListener('click', () => {
-      const element = document.querySelector('.resume-content');
-      const opt = {
+    
+  // Select the download button and the section to convert to PDF
+const downloadButton = document.getElementById('download-pdf');
+const resumeSection = document.getElementById('resume-section');
+
+// Add event listener for download button
+downloadButton.addEventListener('click', () => {
+    const options = {
         margin: 0.5,
         filename: 'Tarun_Pratap_Singh_Resume.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
-        jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-      };
-      html2pdf().set(opt).from(element).save();
-    });
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Use html2pdf.js to generate the PDF
+    html2pdf().from(resumeSection).set(options).save();
+});
+
   </script>
 
 </body>
