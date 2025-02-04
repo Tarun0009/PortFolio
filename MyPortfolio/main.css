@@ -860,6 +860,11 @@ ul1 li::before {
 
 /*project section*/
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> aa2ad7f7f8a498210aab4e830f9efa42eee052bc
 .projects {
   padding: 60px 20px; /* Adjusted padding for better spacing */
   background: linear-gradient(145deg, #0e0606, #5e5e5e); /* Modern soft gradient background */
@@ -870,7 +875,11 @@ ul1 li::before {
 
 .projects .project-item {
   margin-bottom: 30px;
+<<<<<<< HEAD
   margin-left: 30px;
+=======
+  margin-left: 35px;
+>>>>>>> aa2ad7f7f8a498210aab4e830f9efa42eee052bc
   margin-right: 35px;
   padding: 20px;
   border: 1px solid #ddd;
